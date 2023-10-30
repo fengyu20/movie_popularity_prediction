@@ -10,7 +10,9 @@
         "stars": "51.7K",
         "saves": "16.3K",
         "favorites": "6.8K",
-        "critique_number": 592
+        "critique_number": 592,
+        "film_group": "Douze hommes en col\u00e8re",
+        "origin_country": "\u00c9tats-Unis"
     },
     "Harakiri (1962)": {
         "rating": "8.6",
@@ -23,7 +25,9 @@
         "stars": "8.2K",
         "saves": "12.7K",
         "favorites": "1.5K",
-        "critique_number": 115
+        "critique_number": 115,
+        "film_group": "Hara-Kiri",
+        "origin_country": "Japon"
     },
     "Blade Runner : The Final Cut (2007)": {
         "rating": "8.5",
@@ -36,6 +40,7 @@
         "stars": "1.2K",
         "saves": "269",
         "favorites": "111",
-        "critique_number": 3
+        "critique_number": 3,
+        "film_group": "Blade Runner"
     }
 }
