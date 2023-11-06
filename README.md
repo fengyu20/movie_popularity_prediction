@@ -15,7 +15,8 @@ Additionally, I have created [a basic tutorial](https://www.notion.so/fengyu23/S
 
 1. Reviewing online projects related to this subject matter is beneficial. They help me to gain insights into selecting relevant features, appropriate prediction models, and effective data cleaning methods.
 2. For specific technical issues, resources like Stack Overflow can be invaluable. During a particular challenge with debugging the web driver, despite browsing official documentation and seeking assistance from ChatGPT, the solution ultimately pertained to network connectivity rather than the code itself.
-3. Coding Insights:
+3. Always do data validation. One of the submitted versions only have 100 movies but I did not notice it. With data validation(like what I've done for the Star Was project), we could avoid this kind of mistake.
+4. Coding Insights:
    1. To handle different data types with a single function, consider using `isinstance` or using a parameter like `is_url=True` to adapt the function's processing logic.
    2. In web scraping, it's crucial to account for potential `None` values. This can be managed gracefully in the return statement, for example: `return found_element.text if found_element else None`.
    3. The `soup.find` method is versatile and can be applied to a range of scenarios, including searching by attributes, text content, or using regular expressions.
